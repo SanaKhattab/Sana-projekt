@@ -1,0 +1,74 @@
+<!--definiera att dokumentet baserar sig på HTML5-->
+<!DOCTYPE html>
+<!--Definiera att svenska är ett språk för alla sidor-->
+<html lang="sv">
+<!--Head delen innehåller metadata som jag valt för min webplatsen -->
+    <head>
+        <!--I denna meta ska vi definiera nyckelord för sökmotorer.-->
+        <meta name="keywords" content="HTML, CSS">
+        <!--Definiera den som har gjort webbplatsen.-->
+        <meta name="author" content="Sana Khattab">
+        <!--Definiera lite beskrivning.-->
+        <meta name="description" content="Webbplats för en pizzeria">
+        <!--för att ställa in visningsporten så att webbplatsen 
+            passar för alla enheter.-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <!--<meta thhp-eguiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <!--Dokumentets title.-->
+        <title>My first webbplats</title>
+        <link rel="stylesheet" href="css/Meny.css">
+    </head>
+    <body>
+        <header class="header">
+            <div><img src="img/logo.png" alt="logo"></div>
+            <!-- Hamburger icon -->
+            <label class="hamb"><span class="hamb-line"></span></label>
+            <nav class="topnav">
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Hem</a></li>
+                        <li><a href="Meny.html"><h4>Meny</h4></a></li>  
+                        <li><a href="Hitta.html">Hitta oss</a></li>
+                        <li><a href="Kontakta.html">Kontakta oss</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="body">
+            <div class="about">
+                <div>
+                    <p><a href="Pizza.html" class="pizza">pizza</a><br>
+                        . Margarita.....................pris..kr<br>
+                        . Vesuvio(Skinka).................pris..kr<br>
+                        . Capricciosa........................pris..kr<br>
+                        . Hawaii.........................pris..kr<br>
+                    </p>
+                    <p><a href="#" class="kebab">kebab</a><br>
+                        . Pita Kebab....................pris..kr<br>
+                        . Rullkebab......................pris..kr<br>
+                        . Stark Kebabrulle.................pris..kr<br>
+                        . VitlöksRullkebab.................pris..kr<br>
+                    </p>
+                </div>
+                <div>
+                    <p><a href="#" class="sallad">sallad</a><br>
+                        . Kebabsalla......................pris..kr<br>
+                        . Amerikansk Sall..................pris..kr<br>
+                        . Kyckling Sallad................pris..kr<br>
+                        . Gyro............................pris..kr<br>
+                    </p>
+                    <p><a href="#" class="dryck">dryck</a><br>
+                        Dricka 33cl..........................pris..kr<br>
+                        Dricka 50cl.........................pris..kr<br>
+                        Dricka 2 Liter.....................pris..kr<br>
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- JavaScript code can be placed here -->
+        <script src="js/script.js"></script>   
+    </body>
+</html>
